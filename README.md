@@ -32,17 +32,17 @@ $ make
 How to run 'opencv_boundaries':
 
 ```console
-$ cd build
-$ make run
+$ make install
+$ cd ../dist/bin
+$ ./boundaries input_filename output_filename min_perimeter_size max_perimeter_size
 ```
 
-or, alternatively:
+
+How to run the example:
 
 ```console
-$ make install
-$ cd dist/bin
+$ ./boundaries boundaries boundaries_out 100 200
 ```
-and run the generated executable
 
 
 Federico Marcuzzi, 2020
