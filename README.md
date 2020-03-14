@@ -41,7 +41,7 @@ $ ./boundaries input_filename output_filename min_perimeter_size max_perimeter_s
 How to run the example:
 
 ```console
-$ ./boundaries boundaries boundaries_out 100 200
+$ ./boundaries boundaries.png boundaries_out.png 100 200
 ```
 
 
